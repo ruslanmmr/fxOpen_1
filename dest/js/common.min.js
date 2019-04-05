@@ -1,7 +1,7 @@
 $(document).ready(function () {
   lazy();
 });
-
+//загрузка видео после загрузки всей страницы
 window.addEventListener('load', 
     function() { 
       backgroundVideo();
