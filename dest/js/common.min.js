@@ -1,10 +1,16 @@
 $(document).ready(function () {
   lazy();
-  backgroundVideo();
 });
+
+window.addEventListener('load', 
+    function() { 
+      backgroundVideo();
+  }, false);
+
 $(window).resize(function () {
   innerWidth = $('body').innerWidth();
 });
+
 var innerWidth = $('body').innerWidth(),
 videoLoaded;
 
