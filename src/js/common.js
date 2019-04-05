@@ -27,7 +27,7 @@ function lazy() {
 function backgroundVideo() {
     $('.jquery-background-video-wrapper').append('<video class="my-background-video jquery-background-video" loop autoplay muted playsinline><source class="video-source" src="videos/optimazed.mp4" type="video/mp4"><source class="video-source" src="videos/optimazed.webm" type="video/webm"></video>');
     $('.my-background-video').bgVideo ({
-      fullScreen : true, 
+      fullScreen : false, 
       fadeIn : 500,
       fadeOnPause : false,
       fadeOnEnd : true,
