@@ -1,0 +1,19 @@
+.footer {
+  padding: 20px 0;
+  text-align: center;
+  font-size: 11px;
+  line-height: 1.2em;
+  font-weight: 300;
+  &__logo {
+    width: 154px;
+    margin: 0 auto;
+  }
+}
+
+@media all and(max-width: 992px) {
+  .footer {
+    br {
+      display: none;
+    }
+  }
+}
